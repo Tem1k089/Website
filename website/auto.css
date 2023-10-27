@@ -1,0 +1,150 @@
+header {
+ background-color: #ffbf00;
+ color: black;
+ padding: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 20px;
+ text-decoration: none;
+}
+
+.logo img {
+ height: 50px;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+}
+
+nav li {
+ margin: 0 10px;
+}
+
+nav a {
+ color: black;
+ 
+ text-decoration: none;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Arial, sans-serif;
+}
+.up{
+	padding: 10px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.low input{
+    font-size:25px;
+}
+.up h1{
+	font-size: 40px;
+}
+.low form{
+	padding: 10px;
+}
+.low{
+	text-align: center;
+}
+.phonelabel{
+	margin: 10px;
+	font-size: 25px;
+	text-align: left;
+}
+.phoneinput{
+	width: 450px;
+	height: 35px;
+	border-width: 3px;
+}
+.passlabel{
+	font-size: 25px;
+	text-align: left;
+}
+.passinput{
+	width: 450px;
+	height: 35px;
+	border-width: 3px;
+}
+.enter{
+	margin-top: : 10px;
+	width: 450px;
+	height: 45px;
+	font-size: 25px;
+	background-color: #FF7F50;
+	border-radius: 10px;
+    cursor: pointer; 
+    outline: none; 
+    transition: 0.05s all; 
+}
+.enter:active { 
+    transform: scale(0.98); 
+}
+
+.enter:hover{
+	transition: 0.1s;
+	width: 460px;
+	height: 55px;
+}
+.reg{
+	width: 450px;
+	height: 45px;
+	font-size: 25px;
+	background-color: #FF7F50;
+	border-radius: 10px;
+	cursor: pointer; 
+    outline: none; 
+    transition: 0.05s all; 
+}
+.reg:active { 
+    transform: scale(0.98); 
+}
+
+.reg:hover{
+	transition: 0.1s;
+	width: 460px;
+	height: 55px;
+}
+.low h3{
+	text-align: center;
+	font-size: 20px;
+}
+footer {
+ background-color: #ffbf00;
+ color: black;
+ padding: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 180px;
+ font-size: 16px;
+ text-decoration: none;
+}
+
+footer p {
+ margin: 0;
+}
+
+footer nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+}
+
+footer nav li {
+ margin: 0 10px;
+}
+
+footer nav a {
+ color: #fff;
+ text-decoration: none;
+}
+
+
+

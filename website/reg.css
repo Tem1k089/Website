@@ -1,0 +1,114 @@
+header {
+ background-color: #ffbf00;
+ color: black;
+ padding: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 20px;
+ text-decoration: none;
+}
+
+.logo img {
+ height: 50px;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+}
+
+nav li {
+ margin: 0 10px;
+}
+
+nav a {
+ color: black;
+ 
+ text-decoration: none;
+}
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Arial, sans-serif;
+}
+.up{
+	padding: 10px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+.up h1{
+	font-size: 40px;
+}
+.low{
+	text-align: center;
+}
+.low form{
+	padding: 10px;
+}
+.low input{
+    font-size:25px;
+    border-width: 3px;
+}
+.low select{
+	border-width: 3px;
+	font-size:25px;
+}
+.low label{
+	margin: 10px;
+	font-size: 25px;
+	text-align: left;
+}
+.datev{
+	width: 100px;
+}
+.bday{
+	width: 100px;
+}
+.regis{
+	width: 450px;
+	height: 45px;
+	font-size: 25px;
+	background-color: #FF7F50;
+	border-radius: 10px;
+	cursor: pointer; 
+    outline: none; 
+    transition: 0.05s all; 
+}
+.regis:active { 
+    transform: scale(0.98); 
+}
+
+.regis:hover{
+	transition: 0.1s;
+	width: 460px;
+	height: 55px;
+}
+.enter:hover{
+	transition: 0.1s;
+	width: 460px;
+	height: 55px;
+}
+
+.agree{
+	width: 20px;
+	height: 20px;
+}
+footer {
+ background-color: #ffbf00;
+ color: black;
+ padding: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 120px;
+ font-size: 16px;
+ text-decoration: none;
+}
+
+footer p {
+ margin: 0;
+}
